@@ -1,8 +1,7 @@
-// Local: backend na porta 3000. Em produção: troque pela URL do Render.
 const API_BASE =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "http://localhost:3000"
-    : "https://SEU-APP.onrender.com";
+    : "https://beauty-products-pwa.onrender.com";
 const API_URL = `${API_BASE}/produtos`;
 
 const formulario = document.querySelector("#form-produto");
